@@ -1,0 +1,22 @@
+{
+  "name": "typed-pmfy",
+  "version": "0.1.0",
+  "description": "typed-pmfy --------",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test/test.js",
+    "lint": "tslint --project ."
+  },
+  "keywords": ["promise", "typescript"],
+  "author": "mhzedd@gmail.com",
+  "license": "ISC",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "@types/nodeunit": "0.0.30",
+    "nodeunit": "^0.11.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {}
+}
